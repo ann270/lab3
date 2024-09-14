@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f2f3;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Спільні стилі для обох макетів */
+.header, .footer {
+    background-color: #74D7F3;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Макет з float */
+.container-float .main {
+    overflow: hidden;
+}
+
+.container-float .column {
+    float: left;
+    width: 33.33%;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+    font-size: 24px;
+}
+
+.container-float .img-left {
+    background-color: #A8E6A4;
+}
+
+.container-float .img-center {
+    background-color: #FFF9A6;
+}
+
+.container-float .text-right {
+    background-color: #F5A8F1;
+}
+
+.container-float .footer {
+    background-color: #F5DEB3;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Макет з flex */
+.container-flex .main-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-flex .column-flex {
+    width: 33.33%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.container-flex .img-left {
+    background-color: #A8E6A4;
+}
+
+.container-flex .img-center {
+    background-color: #FFF9A6;
+}
+
+.container-flex .text-right {
+    background-color: #F5A8F1;
+}
+
+.container-flex .footer {
+    background-color: #F5DEB3;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
